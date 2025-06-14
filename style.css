@@ -1,0 +1,64 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Card Container */
+.container {
+  max-width: 600px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* Text Styling */
+h1 {
+  margin-bottom: 1.5rem;
+  color: #ff6600;
+}
+
+#joke-box p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc5200;
+}
+
+/* Punchline Class */
+.hidden {
+  color: #555;
+  font-style: italic;
+  opacity: 0.8;
+}
